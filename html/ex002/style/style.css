@@ -1,0 +1,313 @@
+html {
+    background-color: #202124;
+    font-family: arial, sans-serif;
+}
+
+body {
+    font-size: 14px;
+    color: #bdc1c6;
+}
+
+img {
+    width: auto;
+    margin: auto;
+    margin-top: 60px;
+    display: block
+}
+
+input {
+    border: none;
+    color: whitesmoke;
+    font-size: 16px;
+    width: 520px;
+    height: 32px;
+    margin: auto;
+    display: flex;
+    background-color: transparent;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+#BarraDeBusca:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223, 225, 229, 0);
+
+}
+
+#BarraDeBusca {
+    display: flex;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+    margin-top: 40px;
+}
+
+#lupa {
+    position: relative;
+    left: 10px;
+    height: 45%;
+    margin-top: 13px;
+    float: left;
+}
+
+#botoes {
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+
+}
+
+#Glue:hover {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+#Coke:hover {
+    box-shadow: 0 1px 3px rgba(23, 23, 23, 0.24);
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    color: #e8eaed;
+}
+
+#Glue {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+    margin: 11px 5px;
+    text-align: center;
+    width: 150px;
+    margin-left: 150px;
+    float: left;
+}
+
+#Coke {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+    user-select: none;
+    margin: 11px 5px;
+    text-align: center;
+    width: 150px;
+    margin-right: 150px;
+}
+
+#linguagens {
+    margin-top: 25px;
+    text-align: center;
+    line-height: 28px;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+#linkagem {
+    color: #8ab4f8;
+    text-decoration: none;
+    padding: 0 3px;
+}
+
+.botton {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+    background: #171717;
+    flex-shrink: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+}
+
+#Brasil {
+    padding: 11px 30px;
+    border-bottom: 1px solid #212327;
+    font-size: 15px;
+    color: #9aa0a6;
+}
+
+#Information:hover {
+    text-decoration: underline;
+}
+
+#Information2:hover {
+    text-decoration: underline;
+}
+
+#Information {
+    display: inline-block;
+    Padding: 0px 0px;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+#Information2 {
+    display: flex;
+    padding: 8px 30px;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+#Sobre {
+    padding: 10px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+#Mim {
+    padding: 15px;
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#Publicidade {
+    padding: 15px;
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#Negócios {
+    padding: 15px;
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#funciona {
+    padding: 15px;
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+    margin-right: 470px;
+}
+
+
+#Privacidade {
+    position: relative;
+    float: right;
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#Termos {
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#Configurações {
+    color: #999da2;
+    padding: 15px;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+#gb {
+    background-color: rgba(32,33,36,1);
+    min-width: auto;
+    font: 13px/27px Roboto,RobotoDraft,Arial,sans-serif;
+    z-index: 986;
+    color: white;
+    height: 48px;
+    position: relative;
+    transition: box-shadow 250ms;
+
+}
+
+#contents {
+
+    color: white
+}
+
+#area {
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 40px;
+    line-height: normal;
+    padding: 0 4px;
+    justify-content: flex-end;
+    white-space: nowrap;
+    -moz-box-align: center;
+    align-items: center;
+    display: flex;
+    -moz-user-select: -moz-none;
+}
+
+#linkzin {
+    font-family: arial, sans-serif;
+    line-height: normal;
+    padding-right: 15px;
+}
+
+#gmail {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#definitiveLogin:hover {
+    text-decoration: underline;
+}
+
+#definitiveLogin {
+    color: white;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+#Imagens {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#definitiveImage:hover {
+    text-decoration: underline;
+}
+
+#definitiveImage {
+    color: white;
+    display: inline-block;
+    line-height: 24px;
+    vertical-align: middle;
+    text-decoration: none;
+}
