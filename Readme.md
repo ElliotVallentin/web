@@ -9,8 +9,8 @@ you can find experiments and some simple codes here, but i guarantee you won't f
 
 
 - [x] create a repository on github to record my evolution
-- [ ] Copy google interface as exercise
-- [ ] Use CSS alongside this repository and integrate usage between HTML and CSS
+- [x] Copy google interface as exercise
+- [x] Use CSS alongside this repository and integrate usage between HTML and CSS
 
 
 ##
